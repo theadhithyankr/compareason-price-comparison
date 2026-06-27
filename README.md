@@ -1,33 +1,72 @@
+<div align="center">
+
 # Compareason Price Comparison
 
-Price comparison app with scraping, FastAPI backend, and React frontend for comparing product listings.
+Price comparison project for checking products across sources.
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+
+[Repository](https://github.com/theadhithyankr/compareason-price-comparison)
+
+</div>
+
+## Overview
+
+Compareason Price Comparison is a price comparison project in the TheAdhithyanKR/compareason-price-comparison repository. Price comparison app with scraping, FastAPI backend, and React frontend for comparing product listings.
+
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
 
 ## Key Features
-- Price comparison app with scraping, FastAPI backend, and React frontend for comparing product listings
-- Backend/runtime files are documented alongside the frontend or app layer when the repository includes them.
+
+- Product and price comparison workflow
+- Search-oriented interface for evaluating buying options
+- Structured codebase for collecting and presenting comparable offers
+- Portfolio example of a commerce assistant concept
 
 ## Tech Stack
+
 - Python
-- FastAPI
-- React
 
 ## Project Structure
-- backend - API, server, migrations, or model/runtime code.
 
-## Setup and Run
-```bash
-git clone https://github.com/theadhithyankr/compareason-price-comparison.git
-cd compareason-price-comparison
-python -m venv .venv
-.\\.venv\\Scripts\\Activate.ps1
-pip install -r requirements.txt
-python app.py
-```
+`	ext
+.
+|-- backend/comparison_service.py
+|-- backend/main.py
+|-- backend/models.py
+|-- frontend/index.html
+|-- frontend/package.json
+|-- frontend/package-lock.json
+|-- frontend/postcss.config.js
+|-- frontend/tailwind.config.js
+|-- frontend/vite.config.js
+|-- README.md
+|-- requirements.txt
+|-- run_api.bat
+|-- run_api.ps1
+|-- sample.py
+|-- test_api.py
+|-- test_frontend.html
+|-- test_full_system.py
+|-- test_scraper.py
+|-- USAGE_GUIDE.md
+`
+
+## Setup
+
+`ash
+cd frontend\node_modules\.vite\deps
+npm install
+npm test
+`
 
 ## What This Project Demonstrates
-- Building user-facing web applications with component-based UI and modern frontend tooling.
-- Connecting application interfaces to Python services, ML workflows, or backend APIs.
-- Presenting project scope, setup, and technical choices clearly for reviewers and recruiters.
 
-## Repository
-- GitHub: https://github.com/theadhithyankr/compareason-price-comparison
+- Ability to turn a focused product idea into a working codebase
+- Practical use of the repository's chosen framework and tooling
+- Attention to deployable structure, repeatable setup, and portfolio-ready presentation
+- Project-specific implementation around price comparison
+
+## Links
+
+- Repository: [https://github.com/theadhithyankr/compareason-price-comparison](https://github.com/theadhithyankr/compareason-price-comparison)
