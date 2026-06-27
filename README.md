@@ -14,7 +14,7 @@ Price comparison project for checking products across sources.
 
 Compareason Price Comparison is a price comparison project in the TheAdhithyanKR/compareason-price-comparison repository. Price comparison app with scraping, FastAPI backend, and React frontend for comparing product listings.
 
-The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(System.Collections.Hashtable.Path), and the commands below are taken from its scripts.
+The README was written from the repository contents, including its manifest files, source tree, and available project metadata. The primary manifest is $(@{Path=frontend/node_modules/.vite/deps/package.json; Json=}.Path), and the commands below are taken from its scripts.
 
 ## Key Features
 
@@ -29,7 +29,7 @@ The README was written from the repository contents, including its manifest file
 
 ## Project Structure
 
-`	ext
+```text
 .
 |-- backend/comparison_service.py
 |-- backend/main.py
@@ -50,15 +50,15 @@ The README was written from the repository contents, including its manifest file
 |-- test_full_system.py
 |-- test_scraper.py
 |-- USAGE_GUIDE.md
-`
+```
 
 ## Setup
 
-`ash
+```bash
 cd frontend\node_modules\.vite\deps
 npm install
 npm test
-`
+```
 
 ## What This Project Demonstrates
 
